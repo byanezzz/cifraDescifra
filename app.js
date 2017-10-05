@@ -8,7 +8,7 @@ do{
 		alert("Ha olvidado ingresar la frase");
 	}else{
 	for (i=0; i<frase.length; i++){ 
-			if (frase[i]!==" "||!isNaN(frase[i])){
+			if (frase[i]===" "||!isNaN(frase[i])){
 				invalido=true;
 				alert("La frase ingresada no es válida");
 				break;
@@ -40,7 +40,7 @@ do{
 		alert("Ha olvidado ingresar la frase");
 	}else{
 	for (i=0; i<frase.length; i++){ 
-			if (frase[i]!==" "||!isNaN(frase[i])){
+			if (frase[i]===" "||!isNaN(frase[i])){
 				invalido=true;
 				alert("La frase ingresada no es válida");
 				break;
